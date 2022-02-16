@@ -70,7 +70,7 @@ p,p1,p2,p3,p4,p5,label{
     border-radius: 4px;
   }
   .choices{
-      background-image: url("./assets/background.gif");
+      background-image: url("../assets/background.gif");
       
   }
   .GameOver{
@@ -78,7 +78,7 @@ p,p1,p2,p3,p4,p5,label{
     
   }
   .leftDoor{
-    background-image: url("./assets/horrorRoom.jpg");
+    background-image: url("../assets/horrorRoom.jpg");
   }
   .Submit-button{
     border: none;
