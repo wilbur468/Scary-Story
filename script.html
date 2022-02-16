@@ -38,7 +38,7 @@
 
     <script>
         function magicWord(){
-        if (inputText.value == 'LUST' || inputText.value == "lust"){
+        if (inputText.value.toUpperCase() == 'LUST'){
         parent.location='success.html'+location.search;
         }
         else {
