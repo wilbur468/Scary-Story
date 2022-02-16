@@ -1,0 +1,151 @@
+body{
+    background-color: black;
+    text-align: center;
+
+}
+h1{
+    color: red;
+    font-family: creepster;
+    font-size: 50px;
+    
+}
+h2,h3,h4,h5{
+    color: white;
+    font-family: nosifer;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+p,p1,p2,p3,p4,p5,label{
+    color: white;
+    font-family: nosifer;
+    font-size: large;
+}
+
+.start-button {
+    
+    border: none;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: butcherman;
+    cursor: pointer;
+  }
+  .start-button:hover{
+      background-color: red;
+      transition: ease-out;
+      transform: scale(1.25);
+  }
+  .choices{
+      background-image: url(/assets/background.gif);
+      
+  }
+
+  ul{
+      list-style: square;
+      font-display: auto;
+      text-decoration: none;
+      font-size: 20px;
+      
+     
+  }
+  li{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    list-style-position: inside;
+  }
+  a{
+      text-decoration: none;
+      color: red;
+      font-family: nosifer;
+      font-size: 20px;
+  }
+  a:hover {
+    background-color: yellow;
+    border-radius: 4px;
+  }
+  .choices{
+      background-image: url("/assets/background.gif");
+      
+  }
+  .GameOver{
+    font-size: 40px;
+    
+  }
+  .leftDoor{
+    background-image: url("/assets/horrorRoom.jpg");
+  }
+  .Submit-button{
+    border: none;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: butcherman;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .Submit-button:hover{
+    background-color: red;
+    transition: ease-out;
+    transform: scale(1.25);
+  }
+ 
+  input[type='text']{
+      font-size: 25px;
+      font-family: nosifer;
+        color: red;
+  }
+  
+  .Exit-button{
+      font-size: 30px;
+  }
+  .hidden-message{
+      color: greenyellow;
+      font-size: 25px;
+  }
+  .Pone{
+      color: green;
+  }
+  .Ptwo{
+      color: grey;
+  }
+  .Pthree{
+      color: red;
+  }
+  .Pfour{
+      color: blue;
+  }
+  .Pfive{
+      color: pink;
+  }
+  .finale{
+      font-size: 25px;
+  }
+  .deadexit{
+      font-size: 25px;
+  }
+  .morse{
+      color: red;
+  }
+  .scriptdeath{
+    text-decoration: none;
+    color: red;
+    font-family: nosifer;
+    font-size: 20px;
+  }
+  .scriptdeath:hover{
+    background-color: yellow;
+    border-radius: 4px;
+  }
+  
